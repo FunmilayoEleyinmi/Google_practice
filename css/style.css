@@ -7,7 +7,7 @@
 .input_wrapper {
     display: flex;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.371);
     border-radius: 2rem ;
     justify-content: space-evenly;
     width: 50%;
@@ -74,7 +74,7 @@
     top: 0;
 }
 
-.profile { 
+.my_profile { 
     border-radius: 100px;
 }
 
@@ -90,8 +90,6 @@
     padding-right: 0.6rem;
 }
 
-
-
 .subnav {
     display: flex;
     align-items: center;
@@ -99,8 +97,63 @@
     margin-top:1rem ;
 }
 
-.subnav:hover {
-    color: blue;
+.subnav .one {
     text-decoration: underline;
-    text-underline-offset:10px ;
+    text-underline-offset: 5px ;
 }
+
+.search_time {
+    margin-top: 1rem;
+    padding-left:16rem ;
+    color: rgba(0, 0, 0, 0.566);
+    margin-bottom: 1.5rem;
+}
+
+.profile img {
+    width: 40%;
+    border-radius: 10px;
+    
+}
+
+.profile button a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.564);
+}
+
+.profile button {
+    padding: 0.8rem 1.1rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+}
+
+.profile .part_3 {
+    display: flex;
+}
+
+.profile { 
+    display: flex;
+    align-items: center;
+    padding-left: 16rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+    padding-bottom: 1rem;
+}
+
+.profile .part_2a {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.profile .part_2a p {
+    padding-right: 2rem;
+}
+
+.profile .part_2 h3{
+font-weight: 100;
+font-size: 1.5rem;
+margin-top:-0.9rem;
+}
+
+.profile .part_2 {
+    margin-left: -2.5rem;
+} */
