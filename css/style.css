@@ -99,7 +99,8 @@
 
 .subnav .one {
     text-decoration: underline;
-    text-underline-offset: 5px ;
+    text-underline-offset: 7px ;
+    text-decoration-thickness: 0.1rem;
 }
 
 .search_time {
@@ -156,4 +157,200 @@ margin-top:-0.9rem;
 
 .profile .part_2 {
     margin-left: -2.5rem;
-} */
+}
+
+.notice {
+    padding-left: 16rem;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.notice a {
+    text-decoration: none;
+}
+
+.notice a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+.lionel_messi {
+    display: flex;
+    padding-left: 16rem;
+}
+
+.lionel_messi img {
+    margin-left: 0.2rem;
+    border-radius: 4px;
+}
+
+.lead {
+    padding-left: 16rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.material1 .material1a {
+    display: flex;
+    padding-bottom: 0.3rem;
+}
+
+.material1 .material1a h6{
+    padding-left: 0.8rem;
+}
+.material1 .material1a a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+.material1 .material1b {
+    display: flex;
+    padding-bottom: 0.5rem;
+}
+
+.material1 .material1b a{
+    width: 30%;
+    margin-bottom: 0.6rem;
+}
+
+.material1 .material1b p{
+    padding-bottom: 1.3rem;
+}
+
+.material1 .material1b img {
+    border-radius: 15px; 
+    margin-top: -1.3rem; 
+}
+
+.materials {
+    display: flex;
+    width: 50%;
+    margin-left: 16rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.363);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+    padding: 0.5rem 0;
+}
+
+.materials .section1 {
+    width: 60%;
+    padding-right: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.363);
+}
+
+.materials .material1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363) ;
+}
+
+.materials .section2 {
+    width: 60%;
+    padding-left: 1rem;
+}
+
+.material2 .material2a {
+    display: flex;
+    padding-bottom: 0.3rem;
+}
+
+.material2 .material2a h6{
+    padding-left: 0.8rem;
+}
+.material2 .material2a a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+.material2 .material2b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+
+}
+
+.material2 .material2b a{
+    width: 30%;
+}
+
+.material2 .material2b img {
+    border-radius: 15px;
+    margin-top: -1.3rem;
+}
+
+.materials .material2 {
+    padding-top: 0.5rem;
+}
+
+.material3 .material3a {
+    display: flex;
+    padding-bottom: 0.3rem;
+}
+
+.material3 .material3a h6{
+    padding-left: 0.8rem;
+}
+.material3 .material3a a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+.material3 .material3b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.7rem;
+}
+
+.material3 .material3b a{
+    width: 30%;
+}
+
+.material3 .material3b iframe {
+    border-radius: 5px;
+    margin-top: -1.3rem;
+
+}
+
+.material4 .material4a {
+    display: flex;
+    padding-bottom: 0.3rem;
+}
+
+.material4 .material4a h6{
+    padding-left: 0.8rem;
+}
+.material4 .material4a a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+.material4 .material4b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.material4 .material4b a{
+    width: 30%;
+}
+
+.material4 .material4b img {
+    border-radius: 15px;
+    margin-top: -1.3rem;
+}
+
+.materials .material3 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+}
+
+.materials .material4 {
+    padding-top: 0.5rem;
+}
