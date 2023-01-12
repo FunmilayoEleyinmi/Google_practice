@@ -163,6 +163,8 @@ margin-top:-0.9rem;
     padding-left: 16rem;
     font-size: 1.2rem;
     color: red;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .notice a {
@@ -214,6 +216,11 @@ margin-top:-0.9rem;
 .material1 .material1b a{
     width: 30%;
     margin-bottom: 0.6rem;
+    text-decoration: none;
+}
+
+.material1 .material1b a:hover {
+    text-decoration: underline;
 }
 
 .material1 .material1b p{
@@ -274,6 +281,11 @@ margin-top:-0.9rem;
 
 .material2 .material2b a{
     width: 30%;
+    text-decoration: none;
+}
+
+.material2 .material2b a:hover {
+    text-decoration: underline;
 }
 
 .material2 .material2b img {
@@ -309,12 +321,16 @@ margin-top:-0.9rem;
 
 .material3 .material3b a{
     width: 30%;
+    text-decoration: none;
+}
+
+.material3 .material3b a:hover {
+    text-decoration: underline;
 }
 
 .material3 .material3b iframe {
     border-radius: 5px;
     margin-top: -1.3rem;
-
 }
 
 .material4 .material4a {
@@ -340,6 +356,11 @@ margin-top:-0.9rem;
 
 .material4 .material4b a{
     width: 30%;
+    text-decoration: none;
+}
+
+.material4 .material4b a:hover {
+    text-decoration: underline;
 }
 
 .material4 .material4b img {
@@ -353,4 +374,301 @@ margin-top:-0.9rem;
 
 .materials .material4 {
     padding-top: 0.5rem;
+}
+
+.search1 {
+    margin-left: 16rem;
+    margin-right: 27rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.search1 .site a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.657);
+    padding-bottom: 1rem;
+}
+
+.search1 .link a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.search1 .link a:hover {
+    text-decoration: underline;
+}
+
+.search1 .body p {
+    font-size: 1rem;
+    padding-bottom: 0.6rem;
+    padding-top: 0.3rem;
+}
+
+.search1 .sub {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.search1 .sub .sub2{
+    padding-left: 10rem;
+}
+
+.search1 .sub1 a{
+    text-decoration: none;
+}
+
+.search2 {
+    margin-left: 16rem;
+    margin-right: 27rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.search2 .site a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.657);
+    padding-bottom: 1rem;
+}
+
+.search2 .link a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.search2 .link a:hover {
+    text-decoration: underline;
+}
+
+.search2 .body p {
+    font-size: 1rem;
+    padding-top: 0.3rem;
+}
+
+.search3 {
+    margin-left: 16rem;
+    margin-right: 27rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.search3 .site a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.657);
+    padding-bottom: 1rem;
+}
+
+.search3 .link a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.search3 .link a:hover {
+    text-decoration: underline;
+}
+
+.search3 .body p {
+    font-size: 1rem;
+    padding-top: 0.3rem;
+}
+
+.search4 {
+    margin-left: 16rem;
+    margin-right: 27rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.search4 .site a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.657);
+    padding-bottom: 1rem;
+}
+
+.search4 .link a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.search4 .link a:hover {
+    text-decoration: underline;
+}
+
+.search4 .body p {
+    font-size: 1rem;
+    padding-top: 0.3rem;
+}
+
+.search5 {
+    margin-left: 16rem;
+    margin-right: 27rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.search5 .site a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.657);
+    padding-bottom: 1rem;
+}
+
+.search5 .link a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.search5 .link a:hover {
+    text-decoration: underline;
+}
+
+.search5 .body p {
+    font-size: 1rem;
+    padding-top: 0.3rem;
+}
+
+.search6 {
+    margin-left: 16rem;
+    margin-right: 27rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.search6 .site a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.657);
+    padding-bottom: 1rem;
+}
+
+.search6 .link a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.search6 .link a:hover {
+    text-decoration: underline;
+}
+
+
+.search6 .body p {
+    font-size: 1rem;
+    padding-top: 0.3rem;
+}
+
+.search6 .body {
+    display: flex;
+    align-items: center;
+    padding-top: 0.3rem;
+    justify-content: space-evenly;
+}
+
+
+.search7 {
+    margin-left: 16rem;
+    margin-right: 27rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.search7 .site a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.657);
+    padding-bottom: 1rem;
+}
+
+.search7 .link a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.search7 .link a:hover {
+    text-decoration: underline;
+}
+
+.search7 .body p {
+    font-size: 1rem;
+    padding-top: 0.3rem;
+}
+
+.search8 {
+    margin-left: 16rem;
+    margin-right: 27rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.search8 .site a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.657);
+    padding-bottom: 1rem;
+}
+
+.search8 .link a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.search8 .link a:hover {
+    text-decoration: underline;
+}
+
+.search8 .body p {
+    font-size: 1rem;
+    padding-top: 0.3rem;
+}
+
+.search9 {
+    margin-left: 16rem;
+    margin-right: 27rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.search9 .site a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.657);
+    padding-bottom: 1rem;
+}
+
+.search9 .link a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.search9 .link a:hover {
+    text-decoration: underline;
+}
+
+.search9 .body p {
+    font-size: 1rem;
+    padding-top: 0.3rem;
+}
+
+.search10 {
+    margin-left: 16rem;
+    margin-right: 27rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.search10 .site a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.657);
+    padding-bottom: 1rem;
+}
+
+.search10 .link a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.search10 .link a:hover {
+    text-decoration: underline;
+}
+
+.search10 .body p {
+    font-size: 1rem;
+    padding-top: 0.3rem;
 }
