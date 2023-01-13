@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .input_wrapper {
@@ -11,8 +12,9 @@
     border-radius: 2rem ;
     justify-content: space-evenly;
     width: 50%;
-    padding: 0.6rem;
+    padding: 0.4rem;
     margin-right: 18rem;
+    margin-left: -6rem;
 }
 
 .input_wrapper input {
@@ -62,6 +64,7 @@
 .google {
      width: 50%;
      justify-self: flex-start;
+     margin-left: -1rem;
 }
 
 .nav_wrapper {
@@ -84,6 +87,8 @@
     color: rgba(0, 0, 0, 0.566);
     text-decoration: none;
     padding-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
 }
 
 .subnav a i {
@@ -93,7 +98,7 @@
 .subnav {
     display: flex;
     align-items: center;
-    padding-left: 15rem;
+    padding-left: 11rem;
     margin-top:1rem ;
 }
 
@@ -105,7 +110,7 @@
 
 .search_time {
     margin-top: 1rem;
-    padding-left:16rem ;
+    padding-left:12rem ;
     color: rgba(0, 0, 0, 0.566);
     margin-bottom: 1.5rem;
 }
@@ -135,7 +140,7 @@
 .profile { 
     display: flex;
     align-items: center;
-    padding-left: 16rem;
+    padding-left: 12rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.089);
     padding-bottom: 1rem;
 }
@@ -163,8 +168,10 @@ margin-top:-0.9rem;
     padding-left: 16rem;
     font-size: 1.2rem;
     color: red;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .notice a {
@@ -234,7 +241,7 @@ margin-top:-0.9rem;
 
 .materials {
     display: flex;
-    width: 50%;
+    width: 65%;
     margin-left: 16rem;
     border-top: 1px solid rgba(0, 0, 0, 0.363);
     border-bottom: 1px solid rgba(0, 0, 0, 0.363);
@@ -378,7 +385,7 @@ margin-top:-0.9rem;
 
 .search1 {
     margin-left: 16rem;
-    margin-right: 27rem;
+    margin-right: 5rem;
     margin-top: 2rem;
     color: rgba(0, 0, 0, 0.657);
 }
@@ -386,12 +393,15 @@ margin-top:-0.9rem;
 .search1 .site a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.657);
-    padding-bottom: 1rem;
+}
+
+.search1 .site {
+    font-size: 0.8rem;
 }
 
 .search1 .link a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding-bottom: 1rem;
 }
 
@@ -400,7 +410,7 @@ margin-top:-0.9rem;
 }
 
 .search1 .body p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-bottom: 0.6rem;
     padding-top: 0.3rem;
 }
@@ -408,7 +418,7 @@ margin-top:-0.9rem;
 .search1 .sub {
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: rem;
 }
 
 .search1 .sub .sub2{
@@ -421,7 +431,7 @@ margin-top:-0.9rem;
 
 .search2 {
     margin-left: 16rem;
-    margin-right: 27rem;
+    margin-right: 5rem;
     margin-top: 2rem;
     color: rgba(0, 0, 0, 0.657);
 }
@@ -432,9 +442,13 @@ margin-top:-0.9rem;
     padding-bottom: 1rem;
 }
 
+.search2 .site {
+    font-size: 0.8rem;
+}
+
 .search2 .link a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1..1rem;
     padding-bottom: 1rem;
 }
 
@@ -443,13 +457,13 @@ margin-top:-0.9rem;
 }
 
 .search2 .body p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-top: 0.3rem;
 }
 
 .search3 {
     margin-left: 16rem;
-    margin-right: 27rem;
+    margin-right: 5rem;
     margin-top: 2rem;
     color: rgba(0, 0, 0, 0.657);
 }
@@ -460,9 +474,13 @@ margin-top:-0.9rem;
     padding-bottom: 1rem;
 }
 
+.search3 .site {
+    font-size: 0.8rem;
+}
+
 .search3 .link a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding-bottom: 1rem;
 }
 
@@ -471,13 +489,13 @@ margin-top:-0.9rem;
 }
 
 .search3 .body p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-top: 0.3rem;
 }
 
 .search4 {
     margin-left: 16rem;
-    margin-right: 27rem;
+    margin-right: 5rem;
     margin-top: 2rem;
     color: rgba(0, 0, 0, 0.657);
 }
@@ -488,9 +506,13 @@ margin-top:-0.9rem;
     padding-bottom: 1rem;
 }
 
+.search4 .site {
+    font-size: 0.8rem;
+}
+
 .search4 .link a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .search4 .link a:hover {
@@ -498,13 +520,13 @@ margin-top:-0.9rem;
 }
 
 .search4 .body p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-top: 0.3rem;
 }
 
 .search5 {
     margin-left: 16rem;
-    margin-right: 27rem;
+    margin-right: 5rem;
     margin-top: 2rem;
     color: rgba(0, 0, 0, 0.657);
 }
@@ -515,9 +537,13 @@ margin-top:-0.9rem;
     padding-bottom: 1rem;
 }
 
+.search5 .site {
+    font-size: 0.8rem;
+}
+
 .search5 .link a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .search5 .link a:hover {
@@ -525,13 +551,13 @@ margin-top:-0.9rem;
 }
 
 .search5 .body p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-top: 0.3rem;
 }
 
 .search6 {
     margin-left: 16rem;
-    margin-right: 27rem;
+    margin-right: 5rem;
     margin-top: 2rem;
     color: rgba(0, 0, 0, 0.657);
 }
@@ -542,9 +568,13 @@ margin-top:-0.9rem;
     padding-bottom: 1rem;
 }
 
+.search6 .site {
+    font-size: 0.8rem;
+}
+
 .search6 .link a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .search6 .link a:hover {
@@ -553,7 +583,7 @@ margin-top:-0.9rem;
 
 
 .search6 .body p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-top: 0.3rem;
 }
 
@@ -567,7 +597,7 @@ margin-top:-0.9rem;
 
 .search7 {
     margin-left: 16rem;
-    margin-right: 27rem;
+    margin-right: 5rem;
     margin-top: 2rem;
     color: rgba(0, 0, 0, 0.657);
 }
@@ -578,9 +608,13 @@ margin-top:-0.9rem;
     padding-bottom: 1rem;
 }
 
+.search7 .site {
+    font-size: 0.8rem;
+}
+
 .search7 .link a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .search7 .link a:hover {
@@ -588,13 +622,13 @@ margin-top:-0.9rem;
 }
 
 .search7 .body p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-top: 0.3rem;
 }
 
 .search8 {
     margin-left: 16rem;
-    margin-right: 27rem;
+    margin-right: 5rem;
     margin-top: 2rem;
     color: rgba(0, 0, 0, 0.657);
 }
@@ -605,9 +639,13 @@ margin-top:-0.9rem;
     padding-bottom: 1rem;
 }
 
+.search8 .site {
+    font-size: 0.8rem;
+}
+
 .search8 .link a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .search8 .link a:hover {
@@ -615,13 +653,13 @@ margin-top:-0.9rem;
 }
 
 .search8 .body p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-top: 0.3rem;
 }
 
 .search9 {
     margin-left: 16rem;
-    margin-right: 27rem;
+    margin-right: 5rem;
     margin-top: 2rem;
     color: rgba(0, 0, 0, 0.657);
 }
@@ -632,9 +670,13 @@ margin-top:-0.9rem;
     padding-bottom: 1rem;
 }
 
+.search9 .site {
+    font-size: 0.8rem;
+}
+
 .search9 .link a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .search9 .link a:hover {
@@ -642,13 +684,13 @@ margin-top:-0.9rem;
 }
 
 .search9 .body p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-top: 0.3rem;
 }
 
 .search10 {
     margin-left: 16rem;
-    margin-right: 27rem;
+    margin-right: 5rem;
     margin-top: 2rem;
     color: rgba(0, 0, 0, 0.657);
 }
@@ -659,9 +701,13 @@ margin-top:-0.9rem;
     padding-bottom: 1rem;
 }
 
+.search10 .site {
+    font-size: 0.8rem;
+}
+
 .search10 .link a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .search10 .link a:hover {
@@ -669,6 +715,306 @@ margin-top:-0.9rem;
 }
 
 .search10 .body p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-top: 0.3rem;
+}
+
+.main_body {
+    display: flex;
+}
+
+.main_body .bodyA {
+    margin-left: -5rem;
+}
+
+.main_body .bodyB {
+    border-left: 1px solid rgba(0, 0, 0, 0.26);
+    margin-left: 3rem;
+    margin-right: 4rem;
+    margin-bottom: 55rem;
+    padding-left: 1rem;
+    margin-top: 1.2rem;
+}
+
+.info h4 {
+    font-weight: 300;
+    font-size:1.2rem ;
+    padding-bottom: 0.5rem;
+}
+
+.review button {
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 0.3rem 0.7rem;
+}
+
+.review a {
+    text-decoration: none;
+    color: black;
+}
+
+.review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    border-bottom:1px solid rgba(0, 0, 0, 0.363) ;
+}
+
+.info p {
+    padding-bottom: 0.5rem;
+    color:rgba(0, 0, 0, 0.698) ;
+    font-size: 0.9rem;
+}
+
+.info p a {
+    text-decoration: none;
+}
+
+.stats a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    color: black;
+}
+
+.stats button {
+    border-radius: 100px;
+    margin-left: -1rem;
+    padding: 0.1rem 0.3rem;
+    color: none;
+}
+
+.psg a {
+    text-decoration: none;
+    color:black ;
+    padding-bottom: 1.5rem;
+}
+
+table td {
+    border-bottom:1px solid rgba(0, 0, 0, 0.363) ;
+    padding-left: 1.5rem;
+    width: 30%;
+}
+
+table th {
+    padding-left: -10rem;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.other1 {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.other1 .img2 {
+  margin-right: 0.9rem;  
+}
+
+.other1 .img4 {
+    margin-left: 0.8rem;
+}
+
+.other1 img {
+    border-radius: 7px;
+}
+
+.other1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.infob button {
+    border-radius: 25px;
+    widows: 80%;
+    padding: 0.2rem 8rem;
+    font-size: 0.9rem;
+    background-color: none;
+    border: none;
+}
+
+.people h4 {
+    padding: 1rem 0;
+    font-weight: 500;
+    font-weight: 1.5rem;
+}
+
+.relate h3 {
+    margin-left: 11rem;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.relate .option1 {
+    margin-left: 11rem;
+    display: flex;
+    align-items: center;
+    margin-right: 27rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.relate .option1 ul {
+    list-style: none;
+}
+
+.option1 li a {
+    text-decoration: none;
+    color: black;
+    padding-left: rem;
+}
+
+.option1 li a:hover {
+    text-decoration: underline;
+}
+
+.option1 li button {
+    padding: 0.3rem 2rem;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    width: 80%;
+    margin-bottom:0.5rem ;
+    border: none;
+    font-weight: 700;
+}
+
+.option1 i {
+    padding-right: 1rem;
+}
+
+.spell {
+    display: flex;
+    margin-left: 25rem;
+    align-items: center;
+}
+
+.spell .G {
+    color: rgba(0, 0, 255, 0.731);
+    font-size: 2rem;
+}
+
+.spell .e {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.spell .o {
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+.spell .l {
+    color: green;
+    font-size: 1.5rem;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.3rem;
+}
+
+.color i {
+    color: blue;
+    margin-left: 1.5rem;
+}
+
+.no {
+    display: flex;
+    align-items: center;
+}
+
+.no a {
+    text-decoration: none;
+    margin-left: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.no .no1 a {
+    color: black;
+}
+
+.no a:hover {
+    text-decoration: underline;
+}
+
+.color2 {
+    display: flex;
+    margin-left: 27rem;
+    padding-bottom: 2rem;
+}
+
+.color2 p {
+    margin-left: 3rem;
+    color: blue;
+    font-size: 0.8rem;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+    background-color: rgba(0, 0, 255, 0.035);
+    padding-left: 16rem;
+}
+
+.location .loc2 {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.loc2 i {
+    color: blue;
+    font-size: 0.5rem;
+}
+
+.loc2 p {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.loc2 a {
+    text-decoration: none;
+
+}
+
+.loc1 {
+    padding-right: 1rem;
+    border-right:1px solid rgba(0, 0, 0, 0.224) ;
+    color: rgba(0, 0, 0, 0.407);
+    font-size: 0.9rem;
+}
+
+.help {
+    display: flex;
+    align-items: center;
+    padding-left: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color: rgba(0, 0, 255, 0.035);
+}
+
+.help a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.605);
+    padding-left: 1.5rem;
+    font-size: 0.8rem;
 }
